@@ -1,2 +1,2 @@
 # purasdev
-Full stack markdown blog using the MERN stack with the help of Next.js &amp; MDX
+Markdown MERN blog utilizing Next.js and MDX
