@@ -1,0 +1,47 @@
+.container
+{
+    max-width: 50vw;
+    min-height: 180px;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.col1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.col2 h1
+{
+    font-size: 1.6rem;
+    animation: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.col2 h1:hover
+{
+    color: var(--yellow);
+}
+
+.col2 p
+{
+    font-size: 1rem;
+}
+
+.cardIndex
+{
+    font-size: 1.1rem;
+    font-weight: 700;
+}

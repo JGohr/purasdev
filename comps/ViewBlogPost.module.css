@@ -1,0 +1,46 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: auto;
+}
+
+.intro, .content
+{
+    width: 40vw;
+}
+
+.intro
+{
+    text-align: left;
+    margin-bottom: 5vh;
+}
+
+.intro > p
+{
+    color: var(--yellow);
+}
+
+.title
+{
+    font-size: 2.3rem;
+}
+
+.intro > h3 
+{
+    font-size: 1.2rem;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.content > pre > code
+{
+    color: lightblue;
+}

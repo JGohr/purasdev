@@ -1,0 +1,32 @@
+.LandingText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.LandingTextTrans
+{
+    color: var(--white);
+    opacity: 10%;
+}
+
+.LandingTextHeader
+{
+    color: var(--yellow);
+    font-size: 3.6em;
+}
+
+.LandingTextSubHeader
+{
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.LandingTextViewAll
+{
+    color: var(--yellow);
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 700;
+}
