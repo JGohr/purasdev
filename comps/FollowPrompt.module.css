@@ -1,0 +1,11 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.formPrompt
+{
+    padding: 10px 0;
+}
