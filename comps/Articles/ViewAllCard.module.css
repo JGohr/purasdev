@@ -3,8 +3,8 @@
     max-width: 50vw;
     min-height: 180px;
 
-    display: grid;
-    grid-template-columns: 20% 80%;
+    display: flex;
+    gap: 20px;
 }
 
 .col1
@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1vh;
+    min-width: 40vw;
 }
 
 .col2 h1

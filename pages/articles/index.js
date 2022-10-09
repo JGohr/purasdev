@@ -17,7 +17,7 @@ export default function ViewAllArticles({ allPostMetaData }) {
         </div>
         <div className={styles.AllCards}>
             { allPostMetaData.map((post, index) => {
-                return <ViewAllCard frontmatter={post.frontmatter} slug={post.fileSlug} index={index} />
+                return <ViewAllCard frontmatter={post.frontmatter} slug={post.fileSlug} index={index} key={index} />
             }) }
         </div>
     </div>);

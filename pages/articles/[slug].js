@@ -4,10 +4,11 @@ import path from 'path';
 import { marked } from 'marked';
 import ViewBlogPost from '../../comps/ViewBlogPost';
 import Header from '../../comps/Header';
+import FollowPrompt from '../../comps/FollowPrompt';
 
 export default function SingleBlog({ content, frontmatter }) {
 
-    return(<>
+    return(<div>
         <Header />
         <ViewBlogPost
         tags={frontmatter.tags}
@@ -15,7 +16,8 @@ export default function SingleBlog({ content, frontmatter }) {
         title={frontmatter.title} 
         desc={frontmatter.desc} 
         body={marked(content)} />
-    </>);
+        <FollowPrompt />
+    </div>);
 };
 
 export async function getStaticPaths() {
