@@ -5,18 +5,21 @@ import { marked } from 'marked';
 import ViewBlogPost from '../../comps/ViewBlogPost';
 import Header from '../../comps/Header';
 import FollowPrompt from '../../comps/FollowPrompt';
+import styles from '../../styles/[slug].module.css';
 
 export default function SingleBlog({ content, frontmatter }) {
 
     return(<div>
         <Header />
-        <ViewBlogPost
-        tags={frontmatter.tags}
-        date={frontmatter.date}
-        title={frontmatter.title} 
-        desc={frontmatter.desc} 
-        body={marked(content)} />
-        <FollowPrompt />
+        <div className={styles.content}>
+            <ViewBlogPost
+            tags={frontmatter.tags}
+            date={frontmatter.date}
+            title={frontmatter.title}
+            desc={frontmatter.desc}
+            body={marked(content)} />
+            <FollowPrompt />
+        </div>
     </div>);
 };
 
