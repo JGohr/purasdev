@@ -1,6 +1,0 @@
-.Landing
-{
-    display: grid;
-    grid-template-rows: 80vh;
-    grid-template-columns: 40vw auto;
-}
