@@ -1,0 +1,82 @@
+.layout-footer
+{
+    font-family: Bergen Mono;
+    color: #f7f7f7;
+
+    background-color: #000000;
+
+    padding: 20px var(--app-padding-x);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copy
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-copy > *
+{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer-follow
+{
+    max-width: 25vw;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.follow-agreement
+{
+    display: flex;
+    gap: 10px;
+}
+
+.follow-newsletter-form
+{
+    display: flex;
+    gap: 3px;
+}
+
+.follow-newsletter-form > input
+{
+    border: none;
+    height: 25px;
+    font-weight: 500;
+}
+
+#follow-agreement-copy
+{
+    font-size: .6rem;
+    max-width: 18vw;
+}
+
+#follow-newsletter-title
+{
+    font-size: .7rem;
+}
+
+#newsletter-email-input
+{
+    width: 65%;
+
+    padding: 10px 5px;
+}
+
+#submit-newsletter
+{
+    width: 35%;
+
+    text-align: center;
+
+    padding: 10px;
+}

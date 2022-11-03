@@ -1,20 +1,18 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Landing from '../comps/Landing/Landing';
-import Header from '../comps/Header';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
 export default function Home(props) {
 
+  console.log(props);
+
   return (
     <div className={styles.container}>
       <Head>
         <title>purasdev</title>
       </Head>
-      <Header />
-      <Landing props={props} />
     </div>
   )
 };

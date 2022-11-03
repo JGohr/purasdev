@@ -1,0 +1,43 @@
+.layout-header
+{
+    font-family: Bergen Mono;
+    color: #f7f7f7;
+    
+    background-color: #000000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+
+    padding: 0 var(--app-padding-x);
+}
+
+.header-interacts
+{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-interacts > *
+{
+    cursor: pointer;
+}
+
+.header-icon
+{
+    width: 18px;
+    height: 18px;
+}
+
+#header-logo
+{
+    font-weight: 500;
+}
+
+#header-cta
+{
+    font-size: .85rem;
+}
