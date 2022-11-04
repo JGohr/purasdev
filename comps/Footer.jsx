@@ -13,7 +13,7 @@ function Footer() {
             <div className="follow-agreement">
                 <input type="checkbox" />
                 <p id="follow-agreement-copy">I accept to recieve emails about future postings from purasdev.
-                I understand I can un-follow whenver I please.</p>
+                I understand I can un-follow whenever I please.</p>
             </div>
         </div>
     </div>);
